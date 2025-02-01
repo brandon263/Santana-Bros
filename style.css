@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("background2.jpg");
+    background-size: cover;
+    background-repeat: inherit;
+    background-position: center;
+}
+
+/*header*/
+header{
+    background-color: #41A5EC;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1rem;
+}
+
+#text-logo {
+    margin-right: auto;
+    font-style: italic;
+    font-family:cursive;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content */
+.body1{
+    display: grid;
+    gap: 1rem;
+    padding: 3rem;
+    margin-left:  1cm;
+    margin-right: 1cm;
+    
+}
+
+
+.intro{
+    text-align: center;
+}
+.intro p{
+    font-size: 3rem;
+    color: #41A5EC;
+    font-weight: bold;
+}
+.intro h4{
+    color: #080808;
+}
+
+.vid { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));/* minimum width and max width*/
+    gap: 2rem;
+}
+.feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #41A5EC;
+    border-radius: 8px;
+}
+
+.feature a {
+    color: black;
+    text-decoration: underline red;
+    font-weight: bold;
+}
+
+.feature a:hover{
+    color: #41A5EC;
+}
+
+.feature h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem;
+}
+
+.winter{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 0rem;
+    padding: 0rem;
+    padding: 0.3rem;
+    background-color: #41A5EC;
+}
+
+.hoodie {
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+  
+.hoodies p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.ORDER{
+    margin: 1rem auto;
+    color: #fff;
+    max-width: 600px;
+    background-color: #41A5EC;
+    padding: 2rem
+}
+.ORDER form{
+    display: grid;
+    gap: 1rem; 
+}
+.ORDER label{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.ORDER input {
+    width: fit-content;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: 3px solid #ffffff;
+}
+
+.ORDER button{
+    background-color: #0282b9;
+    color: white;
+    border: 2px solid white;
+    padding: 0.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    max-width: fit-content;
+}
+.ORDER button:hover{
+    background-color: #41A5EC;
+}
+
+/* about Page */
+.promo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutus{
+    text-align: center;
+}
+.creatorstag {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 0rem;
+    padding: 0rem;
+    padding: 0.3rem;
+    background-color: #41A5EC;
+}
+
+.creators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creatorsrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.creator {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+  /* contact Page */
+.contact {
+    background-color: #41A5EC;
+    padding: 2rem;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 4rem auto;
+    color: #fff; 
+}
+.contact h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.contact form{
+    display: grid;
+    gap: 1rem;
+}
+.contact label{
+    font-weight: bold;
+}
+.contact input, .contact textarea{
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.contact button {
+    background-color: #0282b9;
+    color: white;
+    padding: 0.8rem;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    gap: 2rem;
+    font-weight: bolder;
+}
+.contact button:hover{
+    background-color: #41A5EC;
+}
+
+.socials {
+    background-color: #41A5EC;
+    padding: 2rem;
+    border: 1px solid #0a0a0a;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 1rem auto;
+    color: #fff;
+}
+
+.socials h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.socialbtn { 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialbtn button{
+    background-color: #0282b9;
+    padding: 0.8rem;
+    border: 2px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.sociallnk {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.socialbtn button:hover { 
+    background-color: #41A5EC;
+}
+
+
+/*sign-up*/
+.signup-info{
+    text-align: center;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+.signup {
+    margin: 4rem auto;
+    color: #fff;
+    max-width: 600px;
+    background: #41A5EC;
+    border: solid 1px #080808;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+
+.signup h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+.signup form{
+    display: grid;
+    gap: 1rem;  
+}
+
+.signup label{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.signup input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 4rem;
+    font-size: 1rem;
+    border: 3px solid #ffffff;
+}
+
+.signup button{
+    background-color: #0282b9;
+    color: white;
+    padding: 0.8rem;
+    border: 2px solid white;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-size: 1rem;
+    max-width: fit-content;
+}
+
+.signup button:hover{
+    background-color: #41A5EC;
+}
+
+/*Weather*/
+.weather-container {
+    margin: 4rem auto;
+    background-image: url(weather.gif);
+    background-size: cover;
+    background-repeat: inherit;
+    background-position: center;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(173, 14, 14, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.weather-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.weather-container input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.weather-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+.weather-container button:hover {
+    background-color: #0056b3;
+}
+
+
+  /* Footer */
+footer {
+    background-color: #41A5EC;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+ /* Styles for laptop screens*/
+@media (min-width: 1025px) and (max-width: 1440px) { 
+    .nav-links li h3 a { 
+        font-size: 18px; 
+    } 
+    .intro img { 
+        width: 200px; height: 200px; 
+    } 
+    .features .feature img { 
+        width: 40%; 
+    } 
+    .hoodie img {
+         width: 80%; 
+        }
+    .creator img {
+        width: 80%; 
+           } 
+
+
+}
+    
+    /* Styles for phone screens*/
+    @media (max-width: 767px) {
+    .nav-links{
+        flex-direction: column;
+        }
+    .intro img {
+        width: 150px; height: 150px; 
+        } 
+    .features .feature img { 
+        width: 50%;
+        }
+    .features .feature h2 { 
+        font-size: 15px;   
+        }
+    .intro h2 { 
+        font-size: 15px;   
+        }
+    .intro p { 
+        font-size: 30px;   
+        }
+    .row { 
+        display: grid; 
+        grid-template-columns: 50% 50% ;
+        }
+    .hoodie { 
+        width: 100%;
+        margin-bottom: 20px;
+        }
+        
+    .vid video { 
+        width: 100%;
+        }
+    .promo img { 
+        width: 100%;
+        height: 80%;
+        }
+    .aboutus h1 { 
+        font-size: 15px;   
+        }
+    .aboutus h2 { 
+        font-size: 13px;   
+        }
+    .aboutus h3 { 
+        font-size: 11px;   
+        }
+    .creatorsrow { 
+        display: block;
+        }
+    .creator{ 
+        width: 100%;
+        margin-bottom: 20px;
+        }
+
+    
+    input, button {
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 10px;
+        }
+    
+    h2 {
+        font-size: 24px;
+        }
+}
